@@ -104,3 +104,85 @@
 </body>
 
 </html>
+
+CSS
+
+
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 165, 0, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 165, 0, 1) 100%
+  );
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: orange;
+  text-shadow: 1px 1px 1px black;
+}
+
+hr {
+  width: 600px;
+  height: 10px;
+  background: orange;
+}
+
+.formulario {
+  border: 5px solid orange;
+  background: rgb(238, 238, 194);
+  width: 600px;
+  padding: 40px;
+  margin: 40px auto;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+input,
+select {
+  font-size: 18px;
+}
+
+input:focus {
+  background: rgb(230, 194, 128);
+}
+
+input:focus,
+select:focus {
+  background: rgb(230, 194, 128);
+}
+
+input[type="radio"] fieldset p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#submit {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: orange;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+#submit:hover {
+  background: black;
+  color: rgb(230, 194, 128);
+}
+
+#animation {
+  width: 20%;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
